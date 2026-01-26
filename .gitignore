@@ -2,3 +2,6 @@
 medhackmvp-firebase-adminsdk-fbsvc-e785f66e96.json
 .next
 node_modules
+public
+.env
+.env.local
