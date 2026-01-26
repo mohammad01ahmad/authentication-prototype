@@ -1,0 +1,32 @@
+[00:00:00.678] Server  LOG     ✓ Ready in 475ms
+[00:00:04.559] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.237] Browser LOG     Auth state changed: mohammad01ahmad@gmail.com
+[00:00:07.005] Browser LOG     Auth state changed: No user
+[00:00:17.555] Browser LOG     Step 1: Starting sign in with popup...
+[00:00:23.959] Server  LOG     Key starts with: "-----BEGIN PRIVATE KEY---"
+[00:00:24.052] Server  LOG     Received request with data: {}
+[00:00:24.052] Server  LOG     Verifying ID token...
+[00:00:24.055] Browser LOG     Auth state changed: mohammad01ahmad@gmail.com
+[00:00:24.055] Browser LOG     Step 2: Sign in successful, user: mohammad01ahmad@gmail.com
+[00:00:24.055] Browser LOG     Step 3: Getting ID token...
+[00:00:24.055] Browser LOG     Step 4: ID token obtained (length): 1160
+[00:00:24.055] Browser LOG     Step 5: Sending request to API with payload: {"email":"mohammad01ahmad@gmail.com","idToken":"eyJhbGciOiJSUzI1NiIs...","idea":"nibba","name":"ahmad"}
+[00:00:24.205] Server  LOG     Token verified successfully for user: "jtG1YnK5zkSCcrq6xtVp6U3gvth1"
+[00:00:24.205] Server  LOG     Saving to Firestore...
+[00:00:24.789] Server  LOG     Data saved successfully!
+[00:00:30.393] Browser LOG     Step 6: Response status: 200
+[00:00:30.393] Browser LOG     Step 7: Response data: {"success":true}
+[00:01:00.155] Browser LOG     Auth state changed: No user
+[00:04:15.520] Browser LOG     Step 1: Starting sign in with popup...
+[00:04:21.542] Server  LOG     Received request with data: {}
+[00:04:21.543] Server  LOG     Verifying ID token...
+[00:04:21.544] Server  LOG     Token verified successfully for user: "jtG1YnK5zkSCcrq6xtVp6U3gvth1"
+[00:04:21.545] Server  LOG     Saving to Firestore...
+[00:04:21.631] Browser LOG     Auth state changed: mohammad01ahmad@gmail.com
+[00:04:21.631] Browser LOG     Step 2: Sign in successful, user: mohammad01ahmad@gmail.com
+[00:04:21.631] Browser LOG     Step 3: Getting ID token...
+[00:04:21.631] Browser LOG     Step 4: ID token obtained (length): 1160
+[00:04:21.631] Browser LOG     Step 5: Sending request to API with payload: {"email":"mohammad01ahmad@gmail.com","idToken":"eyJhbGciOiJSUzI1NiIs...","idea":"i love medhack","name":"ahmad"}
+[00:04:21.798] Server  LOG     Data saved successfully!
+[00:04:23.890] Browser LOG     Step 6: Response status: 200
+[00:04:23.890] Browser LOG     Step 7: Response data: {"success":true}
