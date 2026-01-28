@@ -40,7 +40,7 @@ function Page() {
         idToken,
         name: formData.name,
         email: formData.email,
-        idea: formData.idea
+        idea: formData.idea,
       };
 
       console.log("Step 5: Sending request to API with payload:", {
@@ -51,7 +51,9 @@ function Page() {
       const response = await fetch('/api/user', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
+        body: JSON.stringify({
+          payload: payload,
+        }),
       });
 
       console.log("Step 6: Response status:", response.status);
@@ -60,7 +62,6 @@ function Page() {
       console.log("Step 7: Response data:", responseData);
 
       if (response.ok) {
-        alert("Success! Your idea has been saved securely.");
         // Clear form
         setFormData({ name: '', email: '', idea: '' });
       } else {
