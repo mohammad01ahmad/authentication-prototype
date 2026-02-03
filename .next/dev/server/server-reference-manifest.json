@@ -1,36 +1,5 @@
 {
-  "node": {
-    "00575a0c25de87a41f1e5f8cd47c0b6fac6d13d40f": {
-      "workers": {
-        "app/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/getUsers.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/updateStatus.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "getAllAttendees",
-          "filename": "app/actions/getUsers.ts"
-        }
-      },
-      "layer": {
-        "app/dashboard/page": "rsc"
-      },
-      "filename": "app/actions/getUsers.ts",
-      "exportedName": "getAllAttendees"
-    },
-    "70423ced9dd150b8525589cbf18b98baf7398c5cc7": {
-      "workers": {
-        "app/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/getUsers.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/app/actions/updateStatus.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "updateUserStatus",
-          "filename": "app/actions/updateStatus.ts"
-        }
-      },
-      "layer": {
-        "app/dashboard/page": "action-browser"
-      },
-      "filename": "app/actions/updateStatus.ts",
-      "exportedName": "updateUserStatus"
-    }
-  },
+  "node": {},
   "edge": {},
   "encryptionKey": "x4hnj6emtE/u0lsZGafoDMop6FLgBtF0RHhKow/AceE="
 }
